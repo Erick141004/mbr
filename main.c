@@ -31,7 +31,7 @@ int main(int argc, char** argv){
     FILE *file = fopen("mbr.bin", "rb");
 
     if(file == NULL){
-        printf("Não foi possivel ler o arquivo");
+        printf("Não foi possivel ler o arquivo!");
         return 0;
     }
 
