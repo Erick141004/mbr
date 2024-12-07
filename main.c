@@ -145,6 +145,7 @@ int main(int argc, char** argv){
                 );
         }
     }
+    printf("\n");
 
     free(content);
     free(p);
